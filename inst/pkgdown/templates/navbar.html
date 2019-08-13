@@ -1,0 +1,29 @@
+{{#navbar}}
+<div class="navbar navbar-{{{type}}} navbar-fixed-top navbar-mi2" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class = "navbar-mi2logo" href="http://DrWhy.AI/">
+        <img src = "https://github.com/ModelOriented/DrWhyTemplate/blob/master/inst/pkgdown/assets/drwhy_znak_violet_small.jpg?raw=true" alt = "MI2" height = 46 title = "MI2">
+	  </a>
+      <a class="navbar-brand navbar-mi2" href="{{#site}}{{root}}{{/site}}index.html">{{title}}</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      {{#left}}
+      <ul class="navbar-mi2 nav navbar-nav">
+        {{{.}}}
+      </ul>
+      {{/left}}
+      {{#right}}
+      <ul class="nav navbar-nav navbar-right">
+        {{{.}}}
+      </ul>
+      {{/right}}
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+{{/navbar}}

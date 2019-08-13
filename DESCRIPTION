@@ -1,0 +1,16 @@
+Package: DrWhyTemplate
+Title: 'pkgdown' template for DrWhy.AI universe
+Version: 0.1
+Authors@R: c(
+  person("Alicja", "Gosiewska", email = "alicja.gosiewska@gmail.com", role = c("aut", "cre")),
+  person("Aleksandra", "Dabrowska", email = "oll.dabrowska@gmail.com", role = "aut"),
+  person("Przemyslaw", "Biecek", email = "przemyslaw.biecek@gmail.com", role = "aut")
+  )
+Description: This is a private template for use by DrWhy.AI packages.
+   Forked from https://github.com/mi2-warsaw/MI2template
+   Experimental.
+   Please don't use for your own code.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
