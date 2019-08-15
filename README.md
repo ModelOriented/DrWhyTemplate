@@ -44,3 +44,7 @@ This will generate a `docs/` directory with a website for your package.
 - Save
 
 Site should be published: `<user/organization>.github.io/<repistory name>`
+
+### Template
+
+Inspired by [tidytemplate](https://github.com/tidyverse/tidytemplate/).
