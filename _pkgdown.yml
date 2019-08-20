@@ -1,0 +1,20 @@
+template:
+  package: DrWhyTemplate
+
+url: https://modeloriented.github.io/DrWhyTemplate
+
+development:
+  mode: auto
+
+home:
+  strip_header: true
+
+navbar:
+  title: ~
+  type: default
+  left:
+  - text: Reference
+    href: reference/index.html
+  right:
+  - icon: fa-github fa-lg
+    href: https://github.com/ModelOriented/DrWhyTemplate
