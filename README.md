@@ -1,7 +1,7 @@
 # DrWhyTemplate
 pkgdown template for MI2 DataLab projects related to DrWhy.AI universe
 
-[Example pkgdown site with up-to-date MI2 template](https://mi2-warsaw.github.io/auditor/index.html)
+[Example pkgdown site with up-to-date MI2 template](https://modeloriented.github.io/DALEX/)
 
 ## Instructions
 
