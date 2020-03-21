@@ -1,6 +1,6 @@
 Package: DrWhyTemplate
 Title: 'pkgdown' template for DrWhy.AI universe
-Version: 0.2
+Version: 0.3
 Authors@R: c(
  person("Hubert", "Baniecki", email = "hbaniecki@gmail.com", role = c("aut","cre")),
  person("Alicja", "Gosiewska", role = c("aut")))
