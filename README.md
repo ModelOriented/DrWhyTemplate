@@ -7,11 +7,11 @@ pkgdown template for MI2 DataLab projects related to DrWhy.AI universe
 
 ### Installation
 
-Make sure you have installed the current versions of the [`pkgdown`](https://github.com/hadley/pkgdown) and `DrWhyTemplate` packages. 
+This template is up to date with `v1.4.1` of the [`pkgdown`](https://github.com/r-lib/pkgdown) package.
 
 ```
 # install.packages("devtools")
-devtools::install_github("hadley/pkgdown")
+devtools::install_github("r-lib/pkgdown")
 devtools::install_github("ModelOriented/DrWhyTemplate")
 ```
 
