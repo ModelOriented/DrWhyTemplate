@@ -7,7 +7,7 @@ pkgdown template for MI2 DataLab projects related to DrWhy.AI universe
 
 ### Installation
 
-This template is up to date with `v1.4.1` of the [`pkgdown`](https://github.com/r-lib/pkgdown) package.
+This template is up to date with `v1.5.0` of the [`pkgdown`](https://github.com/r-lib/pkgdown) package.
 
 ```
 # install.packages("devtools")

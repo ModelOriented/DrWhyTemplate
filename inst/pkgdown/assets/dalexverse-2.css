@@ -61,6 +61,81 @@ h3 {font-size: 23px;
   margin-bottom: 5px;
 }
 
+/* new */
+
+nav[data-toggle='toc'] .nav  > li > a {
+  background-color: #4a3c89 !important;
+  color: #fff !important;
+  padding: 10px 15px !important;
+  border-radius: 4px !important;
+  border: 1px white solid !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+}
+
+nav[data-toggle='toc'] .nav > li > a:hover,
+nav[data-toggle='toc'] .nav > li > a:focus {
+  background-color: #370f54 !important;
+  color: #fff !important;
+  padding: 10px 15px !important;
+  border-radius: 4px !important;
+  border: 1px white solid !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  padding-left: 13px !important;
+  border-left: 2px solid #fff !important;
+}
+
+nav[data-toggle='toc'] .nav > .active > a,
+nav[data-toggle='toc'] .nav > .active:hover > a,
+nav[data-toggle='toc'] .nav > .active:focus > a {
+  background-color: #370f54 !important;
+  color: #fff !important;
+  padding: 10px 15px !important;
+  border-radius: 4px !important;
+  border: 1px white solid !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  padding-left: 16px !important;
+  border-left: 3px solid #fff;
+}
+
+
+nav[data-toggle='toc'] .nav .nav > li > a {
+  background-color: #4a3c89 !important;
+  color: #fff !important;
+  padding: 10px 15px !important;
+  border-radius: 4px !important;
+  border: 1px white solid !important;
+  font-size: 14px !important;
+}
+
+nav[data-toggle='toc'] .nav .nav > li > a:hover,
+nav[data-toggle='toc'] .nav .nav > li > a:focus {
+  background-color: #370f54 !important;
+  color: #fff !important;
+  padding: 10px 15px !important;
+  border-radius: 4px !important;
+  border: 1px white solid !important;
+  font-size: 14px !important;
+  padding-left: 13px !important;
+  border-left: 2px solid #fff !important;
+}
+
+nav[data-toggle='toc'] .nav .nav > .active > a,
+nav[data-toggle='toc'] .nav .nav > .active:hover > a,
+nav[data-toggle='toc'] .nav .nav > .active:focus > a {
+  background-color: #370f54 !important;
+  color: #fff !important;
+  padding: 10px 15px !important;
+  border-radius: 4px !important;
+  border: 1px white solid !important;
+  font-size: 14px !important;
+  padding-left: 16px !important;
+  border-left: 3px solid #fff;
+}
+
+/* old */
 .navbar-nav li a {
   padding-bottom: 10px;
 }
@@ -77,6 +152,8 @@ h3 {font-size: 23px;
     padding: 10px 15px;
     border-radius: 4px;
 }
+
+
 
 /* footer ------------------------------------------------ */
 
@@ -141,7 +218,7 @@ footer .author {
 /* sidebar new ------------------------------------------------ */
 
 #pkgdown-sidebar h2 {
-  font-size: 1.6em;
+  font-size: 30px;
   margin-top: 1em;
   margin-bottom: 0.25em;
 }
